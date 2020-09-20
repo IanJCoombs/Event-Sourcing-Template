@@ -1,0 +1,14 @@
+{
+    "username": "",
+    "password": "",
+    "endPoint": {
+        "url": "",
+        "port": 1113,
+        "ssl": false
+    },
+    "projectionsEndPoint": {
+        "ip": "",
+        "port": 2113,
+        "ssl": false
+    }
+}

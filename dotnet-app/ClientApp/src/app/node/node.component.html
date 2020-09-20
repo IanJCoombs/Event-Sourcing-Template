@@ -1,0 +1,13 @@
+<mat-card *ngIf="id" class="mat-card mat-focus-indicator nodeComponent">
+    <mat-card-title>        
+        <mat-form-field class="node">
+            <mat-label>Node</mat-label>
+            <input [formControl]="name" matInput (change)="onAnyChange($event)">
+        </mat-form-field>
+    </mat-card-title>
+    <mat-card-content class="mat-card-content">
+    </mat-card-content>
+    <mat-card-actions class="mat-card-actions">
+        <button *ngIf="change" [disabled]="errors.length > 0" mat-raised-button (click)="onSaveClick($event)">Save</button>
+    </mat-card-actions>
+</mat-card>

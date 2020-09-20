@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  eventstore:
+    build:
+      context: ./eventstore/
+    networks:
+      nodes: 
+        ipv4_address: 172.28.0.2
+    ports: 
+      - "1113:1113"
+      - "2113:2113"
+
+networks:
+  nodes:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.28.0.0/24

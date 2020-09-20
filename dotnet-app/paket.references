@@ -1,0 +1,6 @@
+Microsoft.AspNetCore
+Microsoft.AspNetCore.SpaServices.Extensions
+FSharp.Core
+EventStore.Client
+FSharp.SystemTextJson
+Swashbuckle.AspNetCore

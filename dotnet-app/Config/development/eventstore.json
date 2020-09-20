@@ -1,0 +1,14 @@
+{
+    "username": "admin",
+    "password": "changeit",
+    "endPoint": {
+        "url": "localhost",
+        "port": 1113,
+        "ssl": false
+    },
+    "projectionsEndPoint": {
+        "url": "127.0.0.1",
+        "port": 2113,
+        "ssl": false
+    }
+}

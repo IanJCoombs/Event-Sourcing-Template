@@ -1,0 +1,11 @@
+<h1>Nodes</h1>
+
+<p>Nodes configured on the network</p>
+
+<form class="node-form">
+    <button mat-raised-button class="create-button" (click)="onCreateClick($event)">Create</button>
+</form>
+
+<div class="nodeContainer">
+    <app-node *ngFor="let node of getNodeIds()" [id]="node"></app-node>
+</div>
